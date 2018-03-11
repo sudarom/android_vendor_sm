@@ -97,6 +97,9 @@ PRODUCT_COPY_FILES +=  \
 # Include SM audio files
 include vendor/sm/config/sm_audio.mk
 
+# Include private files
+include vendor/sm/config/private.mk
+
 ifneq ($(TARGET_DISABLE_LINEAGE_SDK), true)
 # Lineage SDK
 include vendor/sm/config/lineage_sdk_common.mk
@@ -132,22 +135,16 @@ PRODUCT_PACKAGES += \
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX \
-    CMUpdater \
     LineageSettingsProvider \
-    LineageSetupWizard \
-    Eleven \
     PhoneLocationProvider \
     ExactCalculator \
-    Jelly \
     LockClock \
-    Trebuchet \
     WallpaperPicker \
     WeatherProvider
 
 # Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
+#PRODUCT_PACKAGES += \
+#    Exchange2
 
 # Berry styles
 PRODUCT_PACKAGES += \
