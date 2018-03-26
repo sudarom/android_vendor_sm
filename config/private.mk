@@ -4,5 +4,4 @@ PRODUCT_PACKAGES += \
     LawnFeed \
     baidushurufa \
     greenmusic \
-    via_yoo \
-    HoliWeather
+    via_yoo
