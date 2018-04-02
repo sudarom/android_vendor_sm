@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     LockClock \
     WallpaperPicker \
-    WeatherProvider
+    WeatherProvider \
+    LOSCoins
 
 # Exchange support
 #PRODUCT_PACKAGES += \
@@ -152,6 +153,7 @@ PRODUCT_PACKAGES += \
     LineageBlackAccent \
     LineageBlueAccent \
     LineageBrownAccent \
+    LineageCyanAccent \
     LineageGreenAccent \
     LineageOrangeAccent \
     LineagePinkAccent \
