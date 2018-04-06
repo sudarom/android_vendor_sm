@@ -140,8 +140,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     LockClock \
     WallpaperPicker \
-    WeatherProvider \
-    LOSCoins
+    WeatherProvider
 
 # Exchange support
 #PRODUCT_PACKAGES += \
