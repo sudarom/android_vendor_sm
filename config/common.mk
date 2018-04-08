@@ -139,6 +139,7 @@ PRODUCT_PACKAGES += \
     PhoneLocationProvider \
     ExactCalculator \
     LockClock \
+    Trebuchet \
     WallpaperPicker \
     WeatherProvider
 
