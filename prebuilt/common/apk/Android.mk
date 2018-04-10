@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2016 The MoKee Open Source Project
+# Copyright (C) 2017 The Adroid Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,16 +16,32 @@
 
 LOCAL_PATH:= $(call my-dir)
 
+#baidushurufa
 include $(CLEAR_VARS)
-
 LOCAL_MODULE := baidushurufa
-LOCAL_MODULE_TAGS := optional
-
-LOCAL_SRC_FILES := baidushurufa.apk
-
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
-LOCAL_BUILT_MODULE_STEM := package.apk
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
 
+#greenmusic
+include $(CLEAR_VARS)
+LOCAL_MODULE := greenmusic
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#via_yoo
+include $(CLEAR_VARS)
+LOCAL_MODULE := via_yoo
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
